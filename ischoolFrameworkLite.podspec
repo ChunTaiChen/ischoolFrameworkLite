@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.framework = "UIKit"
  
   # 8
-  s.source_files = "ischoolFramework/**/*.{swift}"
+  s.source_files = "ischoolFramework/**/*.{*}"
  
   # 9
   s.resources = "ischoolFramework/**/*.{png,jpeg,jpg,storyboard,xib}"
