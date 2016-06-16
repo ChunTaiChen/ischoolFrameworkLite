@@ -6,7 +6,7 @@
 //  Copyright © 2016年 ischool. All rights reserved.
 //
 
-class FunctionPool{
+public class FunctionPool{
     
     private var _pool : [FunctionShell]
     
