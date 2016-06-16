@@ -52,8 +52,8 @@
 		61959F7A1C89880B00F4DB8B /* User-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 61959F6C1C89880B00F4DB8B /* User-100.png */; };
 		61959F891C8989B200F4DB8B /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61959F881C8989B200F4DB8B /* Global.swift */; };
 		61959F8D1C89929300F4DB8B /* CommonStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61959F8C1C89929300F4DB8B /* CommonStruct.swift */; };
-		61F08A181C8D6FAB007CDBDA /* FunctionShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F08A171C8D6FAB007CDBDA /* FunctionShell.swift */; };
-		61F08A1E1C8D73C9007CDBDA /* FunctionPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F08A1D1C8D73C9007CDBDA /* FunctionPool.swift */; };
+		61F91EAB1D124E1300AB001C /* FunctionPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F91EA91D124E1300AB001C /* FunctionPool.swift */; };
+		61F91EAC1D124E1300AB001C /* FunctionShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F91EAA1D124E1300AB001C /* FunctionShell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,8 +101,8 @@
 		61959F6C1C89880B00F4DB8B /* User-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User-100.png"; sourceTree = "<group>"; };
 		61959F881C8989B200F4DB8B /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		61959F8C1C89929300F4DB8B /* CommonStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonStruct.swift; sourceTree = "<group>"; };
-		61F08A171C8D6FAB007CDBDA /* FunctionShell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunctionShell.swift; path = ../FunctionShell.swift; sourceTree = "<group>"; };
-		61F08A1D1C8D73C9007CDBDA /* FunctionPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunctionPool.swift; path = ../FunctionPool.swift; sourceTree = "<group>"; };
+		61F91EA91D124E1300AB001C /* FunctionPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionPool.swift; sourceTree = "<group>"; };
+		61F91EAA1D124E1300AB001C /* FunctionShell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionShell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +145,8 @@
 		616E2A201C8967E000F94E20 /* ischoolFramework */ = {
 			isa = PBXGroup;
 			children = (
+				61F91EA91D124E1300AB001C /* FunctionPool.swift */,
+				61F91EAA1D124E1300AB001C /* FunctionShell.swift */,
 				61959F671C89880B00F4DB8B /* icons */,
 				61959F6A1C89880B00F4DB8B /* images */,
 				616E2A601C89690500F94E20 /* LoginHelper */,
@@ -159,8 +161,6 @@
 				616E2A231C8967E000F94E20 /* Info.plist */,
 				616E2A661C89690500F94E20 /* Storyboard.storyboard */,
 				61959F8C1C89929300F4DB8B /* CommonStruct.swift */,
-				61F08A171C8D6FAB007CDBDA /* FunctionShell.swift */,
-				61F08A1D1C8D73C9007CDBDA /* FunctionPool.swift */,
 				615DE2ED1C8EA73D00CB89BE /* ConnectionManager.swift */,
 				615DE2EF1C8EC6BC00CB89BE /* AccountInfo.swift */,
 				615DE2F11C8ED3B700CB89BE /* Resources.swift */,
@@ -358,6 +358,7 @@
 				616E2A501C89681300F94E20 /* OAuthHelper.swift in Sources */,
 				616E2A521C89681300F94E20 /* DSUtil.swift in Sources */,
 				615DE2F01C8EC6BC00CB89BE /* AccountInfo.swift in Sources */,
+				61F91EAB1D124E1300AB001C /* FunctionPool.swift in Sources */,
 				616E2A671C89690500F94E20 /* CustomNavigationView.swift in Sources */,
 				616E2A4F1C89681300F94E20 /* Extensions.swift in Sources */,
 				615F1D8F1CA25E190033F992 /* Toaster.swift in Sources */,
@@ -365,12 +366,11 @@
 				615DE2EE1C8EA73D00CB89BE /* ConnectionManager.swift in Sources */,
 				61959F891C8989B200F4DB8B /* Global.swift in Sources */,
 				616E2A6A1C89690500F94E20 /* LoginHelper.swift in Sources */,
+				61F91EAC1D124E1300AB001C /* FunctionShell.swift in Sources */,
 				615DE2F21C8ED3B800CB89BE /* Resources.swift in Sources */,
-				61F08A181C8D6FAB007CDBDA /* FunctionShell.swift in Sources */,
 				61959F8D1C89929300F4DB8B /* CommonStruct.swift in Sources */,
 				616E2A511C89681300F94E20 /* SwiftyJSON.swift in Sources */,
 				615789F81C900FB300C2710B /* AppContext.swift in Sources */,
-				61F08A1E1C8D73C9007CDBDA /* FunctionPool.swift in Sources */,
 				616E2A4D1C89681300F94E20 /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
