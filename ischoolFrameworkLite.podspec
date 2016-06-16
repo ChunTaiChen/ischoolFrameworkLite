@@ -16,6 +16,8 @@ Pod::Spec.new do |s|
   # 4 - Replace with your name and e-mail address
   s.author = { "CT" => "ct.chen@ischool.com.tw" }
 
+  s.homepage = "https://github.com/ChunTaiChen/ischoolFrameworkLite"
+
   # 6 - Replace this URL with your own Git URL from "Quick Setup"
   s.source = { :git => "https://github.com/ChunTaiChen/ischoolFrameworkLite.git", :tag => "#{s.version}"}
  
