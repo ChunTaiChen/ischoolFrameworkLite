@@ -28,5 +28,8 @@ Pod::Spec.new do |s|
   s.source_files = "ischoolFramework/**/*.{swift}"
  
   # 9
-  s.resources = "ischoolFramework/**/*.{png,jpeg,jpg,storyboard,xib}"
+  #s.resources = "ischoolFramework/**/*.{png,jpeg,jpg,storyboard,xib}"
+
+  s.resource_bundles = {'ischoolFrameworkLite' => 'ischoolFramework/**/*.{png,jpeg,jpg,storyboard,xib}'}
+  
 end
