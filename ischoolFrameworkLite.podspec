@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
  
   # 2
-  s.version = "0.1.3"
+  s.version = "0.1.4"
  
   
   # 4 - Replace with your name and e-mail address
