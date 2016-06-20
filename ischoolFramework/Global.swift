@@ -1,4 +1,6 @@
-let frameworkBundle = NSBundle(identifier: "tw.ischool.ischoolFramework")
+//let frameworkBundle = NSBundle(identifier: "tw.ischool.ischoolFramework")
+
+let frameworkBundle = NSBundle(forClass:LoginHelper.self)
 
 let frameworkStoryboard = UIStoryboard(name: "Storyboard", bundle: frameworkBundle)
 
